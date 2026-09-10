@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c2u6b41ln832f"]
+
+[ext_resource type="Texture2D" uid="uid://2drci2nwph8q" path="res://Free-Nature-Backgrounds-Pixel-Art3.png" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://d212sh3tvqgmk" path="res://image-removebg-preview.png" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=920929177]
+
+[node name="FreeNatureBackgroundsPixelArt3" type="Sprite2D" parent="." unique_id=2101876102]
+position = Vector2(-1, 1)
+texture = ExtResource("1_0e48y")
+
+[node name="Sprite2D" type="Sprite2D" parent="FreeNatureBackgroundsPixelArt3" unique_id=143493716]
+position = Vector2(359, 203)
+scale = Vector2(0.39, 0.324)
+texture = ExtResource("2_epypp")
